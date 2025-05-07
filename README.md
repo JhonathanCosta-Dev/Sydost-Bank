@@ -1,70 +1,58 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Começando com o Create React App
+Este projeto foi criado com o Create React App.
 
-## Available Scripts
+Scripts Disponíveis
+No diretório do projeto, você pode rodar:
 
-In the project directory, you can run:
+npm start
+Roda o aplicativo no modo de desenvolvimento.
+Abra http://localhost:3000 para visualizá-lo no seu navegador.
 
-### `npm start`
+A página será recarregada sempre que você fizer alterações.
+Você também pode ver erros de lint no console.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+npm test
+Inicia o executor de testes no modo interativo de observação.
+Consulte a seção sobre como rodar testes para mais informações.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+npm run build
+Cria o aplicativo para produção na pasta build.
+Ele agrupa o React corretamente no modo de produção e otimiza a construção para o melhor desempenho.
 
-### `npm test`
+O build é minificado e os nomes dos arquivos incluem hashes.
+Seu aplicativo está pronto para ser implantado!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Consulte a seção sobre implantação para mais informações.
 
-### `npm run build`
+npm run eject
+Nota: Esta é uma operação irreversível. Depois de usar o eject, você não poderá voltar atrás!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Se você não estiver satisfeito com a configuração e as escolhas das ferramentas de build, pode ejetar a qualquer momento. Esse comando irá remover a dependência única de build do seu projeto.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Em vez disso, ele copiará todos os arquivos de configuração e as dependências transitivas (como webpack, Babel, ESLint, etc.) diretamente para o seu projeto, para que você tenha controle total sobre elas. Todos os comandos, exceto o eject, ainda funcionarão, mas eles apontarão para os scripts copiados, para que você possa ajustá-los como preferir. A partir deste ponto, você estará por conta própria.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Você não precisa usar o eject. O conjunto de recursos curados é adequado para implantações pequenas e médias, e você não deve se sentir obrigado a usar esse recurso. No entanto, entendemos que essa ferramenta seria inútil se você não pudesse personalizá-la quando estivesse pronto para isso.
 
-### `npm run eject`
+Saiba Mais
+Você pode aprender mais na documentação do Create React App.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Para aprender React, consulte a documentação do React.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Divisão de Código
+Esta seção foi movida para: https://facebook.github.io/create-react-app/docs/code-splitting
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Analisando o Tamanho do Bundle
+Esta seção foi movida para: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Criando um Progressive Web App
+Esta seção foi movida para: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-## Learn More
+Configuração Avançada
+Esta seção foi movida para: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Implantação
+Esta seção foi movida para: https://facebook.github.io/create-react-app/docs/deployment
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+O npm run build falha ao minificar
+Esta seção foi movida para: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
