@@ -12,9 +12,16 @@ Abra http://localhost:3000 para visualizá-lo no seu navegador.
 A página será recarregada sempre que você fizer alterações.
 Você também pode ver erros de lint no console.
 
+
 npm test
 Inicia o executor de testes no modo interativo de observação.
 Consulte a seção sobre como rodar testes para mais informações.
+
+Rodando o Projeto
+Assim que rodar o projeto com npm start
+Login é:
+usuario teste@teste.com
+senha 123456
 
 npm run build
 Cria o aplicativo para produção na pasta build.
